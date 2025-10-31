@@ -15,4 +15,3 @@ services:
       bash -lc "jupyter notebook
       --NotebookApp.token=\"$JUPYTER_TOKEN\"
       --ip=0.0.0.0 --no-browser --port=8888"
-    container_name: dev-env-jupiter-notebook-1
